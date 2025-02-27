@@ -1,6 +1,7 @@
 from telethon import TelegramClient, events
 import logging
 import sys
+import asyncio
 
 # Настройка логирования
 logging.basicConfig(
